@@ -1,0 +1,10 @@
+from numpy import random
+
+x = random.logistic(loc=1, scale=2, size=(2, 3))
+
+print(x)
+
+
+
+[[ 2.99227748 -1.24062891  1.28313472]
+ [ 2.66173342 -1.18736437 -2.12672582]]

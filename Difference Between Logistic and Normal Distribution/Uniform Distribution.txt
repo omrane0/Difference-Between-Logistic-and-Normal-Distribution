@@ -1,0 +1,9 @@
+from numpy import random
+
+x = random.uniform(size=(2, 3))
+
+print(x)
+
+
+[[0.70053501 0.59987159 0.85022479]
+ [0.88941325 0.42619501 0.98172346]]
